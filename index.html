@@ -3,23 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <title>LAP PDFs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px 20px;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #add8e6;
+    }
+  </style>
 </head>
 <body>
-  <h1>Unsere PDFs für die LAP</h1>
-  <ul>
-    <li><a href="AD Beispiel001.html" target="_blank">AD Beispiel</a></li>
-    <li><a href="Cams.html" target="_blank">Cams</a></li>
-    <li><a href="EDiMAX.html" target="_blank">EDiMAX</a></li>
-    <li><a href="Linux_Server_WIN11_client_1.html" target="_blank">Linux-Server / Win11-Client</a></li>
-    <li><a href="Mount.html" target="_blank">Mount</a></li>
-    <li><a href="NAS1.html" target="_blank">NAS1</a></li>
-    <li><a href="Oracle_VirtualBox.html" target="_blank">Oracle VirtualBox</a></li>
-    <li><a href="QNAP_NAS.html" target="_blank">QNAP NAS</a></li>
-    <li><a href="Raspi.html" target="_blank">Raspi</a></li>
-    <li><a href="WIN25_FTP_IIS_und_Raspi_mit_Samba.html" target="_blank">Win25,FTP,IIS-Raspi+Samba</a></li>
-    <li><a href="WINDOWS_11_uebung.html" target="_blank">Windows11 Übung</a></li>
-    <li><a href="Windows_10_installieren_und_NAS_installieren.html" target="_blank">Win10 + NAS</a></li>
-    <li><a href="cockpid_webmin.html" target="_blank">Cockpit + Webmin</a></li>
-  </ul>
+  <header>
+    <h1>LAP Projekt</h1>
+    <img src="logo.png" alt="Logo">
+  </header>
+  <nav>
+    <a href="#praxis">Praxis</a>
+  </nav>
+  <main id="praxis">
+    <h2>Praxis</h2>
+    <ul>
+      <li><a href="AD Beispiel001.html" target="_blank">AD Beispiel</a></li>
+      <li><a href="Cams.html" target="_blank">Cams</a></li>
+      <li><a href="EDiMAX.html" target="_blank">EDiMAX</a></li>
+      <li><a href="Linux_Server_WIN11_client_1.html" target="_blank">Linux-Server / Win11-Client</a></li>
+      <li><a href="Mount.html" target="_blank">Mount</a></li>
+      <li><a href="NAS1.html" target="_blank">NAS1</a></li>
+      <li><a href="Oracle_VirtualBox.html" target="_blank">Oracle VirtualBox</a></li>
+      <li><a href="QNAP_NAS.html" target="_blank">QNAP NAS</a></li>
+      <li><a href="Raspi.html" target="_blank">Raspi</a></li>
+      <li><a href="WIN25_FTP_IIS_und_Raspi_mit_Samba.html" target="_blank">Win25, FTP, IIS-Raspi+Samba</a></li>
+      <li><a href="WINDOWS_11_uebung.html" target="_blank">Windows11 Übung</a></li>
+      <li><a href="Windows_10_installieren_und_NAS_installieren.html" target="_blank">Win10 + NAS</a></li>
+      <li><a href="cockpid_webmin.html" target="_blank">Cockpit + Webmin</a></li>
+    </ul>
+  </main>
 </body>
 </html>
