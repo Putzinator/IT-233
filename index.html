@@ -79,6 +79,10 @@
       padding: 5px 10px;
       border-radius: 5px;
     }
+
+    .nested-details {
+      margin-left: 20px;
+    }
   </style>
 </head>
 <body>
@@ -86,7 +90,7 @@
     <h1>Dokumentensammlung für LAP IT-233</h1>
     <img src="logo.png" alt="Logo">
   </header>
-  
+
   <main id="praxis">
     <h2>Praxis</h2>
 
@@ -132,8 +136,14 @@
         <li><a href="WIn über PXE.pdf">WIn über PXE</a></li>
         <li><a href=".pdf">Beispiel.pdf</a></li>
         <li><a href="Windows über Netzwerk installieren.pdf">Windows über Netzwerk installieren</a></li>
-        
       </ul>
+      <details class="nested-details">
+        <summary><strong>Zusatzthemen</strong></summary>
+        <ul>
+          <li><a href="#">Firewall & Sicherheit.pdf</a></li>
+          <li><a href="#">Server-Monitoring.pdf</a></li>
+        </ul>
+      </details>
     </details>
   </main>
 
@@ -172,29 +182,37 @@
       <summary><strong>Sammlung IT-233</strong></summary>
       <ul>
         <li><a href="Abkürzungen.pdf">Abkürzungen</a></li>
-         <li><a href="Benutzerendgeräte und Peripheriegeräte Hardwaresysteme.pdf">Benutzerendgeräte und Peripheriegeräte Hardwaresysteme</a></li>
-         <li><a href="Drucker.pdf">Drucker</a></li>
-         <li><a href="Fragen Hardwaresysteme 1.pdf">Fragen Hardwaresysteme 1</a></li>
-         <li><a href="Grafikkarte_Soundkarte.pdf">Grafikkarte_Soundkarte</a></li>
-         <li><a href="IPv6.pdf">IPv6</a></li>
-         <li><a href="Kapitel 2-11.pdf">Kapitel 2-11</a></li>
-         <li><a href="Kapitel 6.pdf">Kapitel 6 komplett</a></li>
-         <li><a href="Massenspeicher 2.pdf">Massenspeicher 2</a></li>
-         <li><a href="Massenspeicher.pdf">Massenspeicher</a></li>
-         <li><a href="Monitoren.pdf">Monitoren</a></li>
-         <li><a href="Raid- Systeme.pdf">Raid- Systeme</a></li>
-         <li><a href="RAID.pdf">RAID</a></li>
-         <li><a href="Schnittstellen.pdf">Schnittstellen</a></li>
-         <li><a href="Speichertechnologien.pdf">Speichertechnologien</a></li>
-         <li><a href="Systemressourcen.pdf">Systemressourcen</a></li>
-         <li><a href="Tintenstrahldrucker.pdf">Tintenstrahldrucker</a></li>
-         <li><a href="VGA,HDMI,DVI,DisplayPort,Thunderbolt, FireWire.pdf">VGA,HDMI,DVI,DisplayPort,Thunderbolt, FireWire</a></li>
-         <li><a href=".pdf">Zusätzliche_Doku.pdf</a></li>
+        <li><a href="Benutzerendgeräte und Peripheriegeräte Hardwaresysteme.pdf">Benutzerendgeräte und Peripheriegeräte Hardwaresysteme</a></li>
+        <li><a href="Drucker.pdf">Drucker</a></li>
+        <li><a href="Fragen Hardwaresysteme 1.pdf">Fragen Hardwaresysteme 1</a></li>
+        <li><a href="Grafikkarte_Soundkarte.pdf">Grafikkarte_Soundkarte</a></li>
+        <li><a href="IPv6.pdf">IPv6</a></li>
+        <li><a href="Kapitel 2-11.pdf">Kapitel 2-11</a></li>
+        <li><a href="Kapitel 6.pdf">Kapitel 6 komplett</a></li>
+        <li><a href="Massenspeicher 2.pdf">Massenspeicher 2</a></li>
+        <li><a href="Massenspeicher.pdf">Massenspeicher</a></li>
+        <li><a href="Monitoren.pdf">Monitoren</a></li>
+        <li><a href="Raid- Systeme.pdf">Raid- Systeme</a></li>
+        <li><a href="RAID.pdf">RAID</a></li>
+        <li><a href="Schnittstellen.pdf">Schnittstellen</a></li>
+        <li><a href="Speichertechnologien.pdf">Speichertechnologien</a></li>
+        <li><a href="Systemressourcen.pdf">Systemressourcen</a></li>
+        <li><a href="Tintenstrahldrucker.pdf">Tintenstrahldrucker</a></li>
+        <li><a href="VGA,HDMI,DVI,DisplayPort,Thunderbolt, FireWire.pdf">VGA,HDMI,DVI,DisplayPort,Thunderbolt, FireWire</a></li>
+        <li><a href=".pdf">Zusätzliche_Doku.pdf</a></li>
       </ul>
+      <details class="nested-details">
+        <summary><strong>Zusatzthemen</strong></summary>
+        <ul>
+          <li><a href="#">Testfragen.pdf</a></li>
+          <li><a href="#">Checklisten.pdf</a></li>
+        </ul>
+      </details>
     </details>
   </main>
+
   <footer>
-  <p>Erstellt von Mario Putz IT-233</p>
-</footer>
+    <p>Erstellt von Mario Putz IT-233</p>
+  </footer>
 </body>
 </html>
